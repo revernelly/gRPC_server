@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "/proto/gen;mainapipb";
+
+/*
+service AufWiedersehen {
+    rpc BidGoodBye(GoodByeRequest) returns (GoodByeResponse);
+}
+
+message GoodByeRequest {
+    string name = 1;
+}
+
+message GoodByeResponse {
+    string message = 2;
+}
+*/
+
+message HelloRequest{
+    string name = 1;
+}
+
+message HelloResponse {
+    string message = 1;
+}
